@@ -20,7 +20,5 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.activeUsers = this.usersService.activeUsers;
     this.inactiveUsers = this.usersService.inactiveUsers;
-    this.counterActives = this.counterService.inactiveToActive;
-    this.counterInactives = this.counterService.activeToInactive;
   }
 }
