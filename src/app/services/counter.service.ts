@@ -7,11 +7,11 @@ export class CounterService {
 
   setActiveToInactive() {
     this.activeToInactive++;
-    console.log(this.activeToInactive);
+    console.log('Active to Inactive: ', this.activeToInactive);
   }
 
   setInactiveToActive() {
     this.inactiveToActive++;
-    console.log(this.inactiveToActive);
+    console.log('Inactive to Active: ', this.inactiveToActive);
   }
 }
